@@ -1,0 +1,104 @@
+
+/* *********************intro section ************************** */
+ .btn {
+    border-radius: 20px;
+    width: 100px;
+}
+
+.display-2 {
+    font-weight: 700;
+}
+.display-2--description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    background-image: url(/assets/images/solution.jpg);
+
+}
+
+/************ get started button  *************/
+
+.button {
+    border:2px solid black; 
+    border-radius: 40px; 
+    height: 58px;
+    width: 75%;
+}
+
+
+/* ************************ Our Trusted Clients ****************************************** */
+
+.clients {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.campanies__logo-box {
+    padding: 20px;
+    filter: grayscale();
+    
+}
+.campanies__logo-box:hover {
+    filter: brightness();
+    cursor: pointer;
+}
+
+
+
+/* <!-- -------------------------------Section About US 2----------------------------- --> */
+
+.about-us-h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about-us-p {
+    color: #656161;
+}
+
+.about-us-icon {
+    background: #f770a8;
+    border-radius: 6px;
+    font-size: 30px !important;
+    color: #ff006a !important;
+}
+
+
+/* ************ Our Aim ***************** */
+.aim-h5 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card {
+    border: 2px dashed rgb(255, 131, 151);
+    border-radius: 0px !important;
+    align-items: center;
+    background-color: #6dfae2;
+}
+
+.logo-aim-box {
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+
+/* <!-- --------------------------------- section trusted clients ------------------------------------------ --> */
+
+.trusted-clients-h2 {
+    font-weight: 700;
+}
